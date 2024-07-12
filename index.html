@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,13 +27,14 @@
 <body>
     <nav>
         <div class="nav-ri8">
-            <li id="lii">Home</li>
-            <li id="lii">About</li>
-            <li id="lii">Skills & project</li>
-            <li id="lii">Conatact</li>
-            <h1 class="logo">Akash portfolio</h1>
+             <li id="lii"><a class="nav-link" href="#scrollspyHeading4" style="text-decoration-line: none;">Home</a></li>
+            <li id="lii"> <a class="nav-link" style="text-decoration-line: none;" href="#scrollspyHeading1">About</a>
+            </li>
+            <li id="lii"><a class="nav-link" href="#scrollspyHeading2" style="text-decoration-line: none;">Skills &project</a></li>
+             <li id="lii"><a class="nav-link" href="#scrollspyHeading3" style="text-decoration-line: none;">Conatact</a></li>
+            <h1 class="logo" id="scrollspyHeading4">Akash portfolio</h1>
         </div>
-        <div class="home">
+        <div class="home" >
             <div class="h-left">
                 Hi, Iam <br><span class="name">Akash kumar sahu ,</span>
                 <br>
@@ -52,8 +54,10 @@
                 typeSpeed: 50
             });
         </script>
-        <div class="About-section">
-            <h1 class="hd-1">About:</h1><br>
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+            data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0"
+            class="About-section">
+            <h1 class="hd-1" id="scrollspyHeading1">About:</h1><br>
             <hr class="line-1">
             <div class="text"> I am<b> Akash Kumar Sahu</b>, I am a Computer Science and Engineering 3rd Year Student At
                 Gandhi Institute Of Excellent Technocrats,Bbsr.
@@ -76,7 +80,7 @@
             <div class="img-2"><img src="programmer_10679203.png" alt="naming" height="350px"></div>
         </div>
         <div class="Skill">
-            <h1 class="hd-2">Skills & project:</h1><br>
+            <h1 class="hd-2" id="scrollspyHeading2">Skills & project:</h1><br>
             <hr class="line-1">
             <h1 class="hd-3">Skills:</h1>
             <div class="box-1">
@@ -118,23 +122,27 @@
                 </a>
                 <p id="par">my website show my activities and my life</p>
             </div>
+
+        </div>
         </div>
         <hr class="line-3">
-        <h1 class="hd-4">contact:</h1>
+        <h1 class="hd-4"  id="scrollspyHeading3">contact:</h1>
         <div class="contact">
             <h1 class="connect-h">Connect with me: </h1><br>
-            <a href="https://www.youtube.com/channel/UCPktSq0y4Cly6iuFDXV-x8Q"> <img src="youtube-play-button-28298.png" alt="" class="youtube"></a>
+            <a href="https://www.youtube.com/channel/UCPktSq0y4Cly6iuFDXV-x8Q"> <img src="youtube-play-button-28298.png"
+                    alt="" class="youtube"></a>
             <a href="https://www.youtube.com/channel/UCPktSq0y4Cly6iuFDXV-x8Q" target="_blank"> <img
                     src="whatsapp-logo-png-2261.png" alt="" class="Whatsapp"></a>
             <a href="www.linkedin.com/in/akash-kumar-sahu-07b89a2b2" target="_blank"><img src="icons8-linkedin-96.png"
                     alt="" class="Linkdin"></a>
             <a href="https://github.com/akashkumarsahu915"><img src="github.png" alt="" class="github"></a>
+            <a href="sahukashkumar915@gmail.com"><img src="icons8-gmail-144.png" class="gmail" alt="mail"></a>
 
         </div>
-               <!-- in future the code will be modified -->
+
         </div>
     </nav>
-    
+
 </body>
 
 </html>
